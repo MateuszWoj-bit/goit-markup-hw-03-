@@ -9,9 +9,10 @@
   --panetone-color: #2f303a;
 }
 
+
 .container {
   width: 1200px;
-}
+  }
 
 .section {
   padding-top: 94px;
@@ -20,18 +21,19 @@
 
 .menu {
   display: flex;
-  flex-direction: row;
   align-items: baseline;
-  justify-content: space-around;
+  justify-content: flex-start;
+  flex-direction: row;
 }
 
 .navigation {
   display: flex;
-  flex-basis: auto;
+  margin-left: 43px;
 }
 
 .contact {
   display: flex;
+  margin-left: 200px;
 }
 
 body {
@@ -40,7 +42,6 @@ body {
 }
 a {
   text-decoration: none;
-  margin: 0 3px;
 }
 ul {
   list-style-type: none;
@@ -50,6 +51,7 @@ button {
 }
 .link {
   color: inherit;
+  margin-left: 46px;
 }
 .link-footer {
   color: var(--white-color06);
@@ -84,10 +86,12 @@ li .link:focus {
 main .section,
 footer .section {
   background: var(--panetone-color);
+  width: fit
 }
 .features-list {
   font-size: 14px;
   letter-spacing: 0.03em;
+  
 }
 .features-list .lorem {
   font-weight: 700;
@@ -106,7 +110,8 @@ main .section > h2 {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
+  text-align: center;
+  }
 main .section > button {
   font-weight: 700;
   font-size: 16px;
@@ -115,6 +120,11 @@ main .section > button {
   color: var(--white-color);
   background-color: var(--brand-color);
   border: none;
+  margin: auto;
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  
 }
 .portfolio button {
   font-family: 'Roboto';
@@ -125,6 +135,7 @@ main .section > button {
   letter-spacing: 0.03em;
   background-color: var(--grey-background-color);
   border: none;
+  
 }
 .portfolio button:hover,
 .portfolio button:focus {
@@ -143,6 +154,8 @@ main .section > button {
   letter-spacing: 0.03em;
   line-height: 1.19;
   color: var(--black-color);
+  margin-left: 215px;
+  padding: 4 32px;
 }
 .contact,
 .navigation {
