@@ -9,10 +9,9 @@
   --panetone-color: #2f303a;
 }
 
-
 .container {
   width: 1200px;
-  }
+}
 
 .section {
   padding-top: 94px;
@@ -86,13 +85,19 @@ li .link:focus {
 main .section,
 footer .section {
   background: var(--panetone-color);
-  width: fit
+  width: fit;
 }
 .features-list {
   font-size: 14px;
   letter-spacing: 0.03em;
-  
+  display: flex;
+  margin: 0 215px;
+  margin-top: 94px;
 }
+.feature-box {
+  margin-left: 30px;
+}
+
 .features-list .lorem {
   font-weight: 700;
   line-height: 1.14;
@@ -111,7 +116,7 @@ main .section > h2 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
-  }
+}
 main .section > button {
   font-weight: 700;
   font-size: 16px;
@@ -124,7 +129,6 @@ main .section > button {
   border-radius: 4px;
   text-align: center;
   display: flex;
-  
 }
 .portfolio button {
   font-family: 'Roboto';
@@ -135,7 +139,6 @@ main .section > button {
   letter-spacing: 0.03em;
   background-color: var(--grey-background-color);
   border: none;
-  
 }
 .portfolio button:hover,
 .portfolio button:focus {
@@ -187,6 +190,23 @@ main .section > button {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+.our-team {padding:94px 0px;}
+.what-we-do {
+  
+  padding:94px 0px;
+}
+
+.what-we-do-list {
+  display: flex;
+  justify-content: center;
+   margin-top: 50px;
+}
+
+.what-we-do-list li {
+  margin-left: 30px;
+}
+
 .team figcaption {
   font-weight: 500;
   font-size: 16px;
@@ -196,6 +216,11 @@ main .section > button {
 .team .grey {
   font-weight: 400;
 }
+.team-list{display: flex;justify-content:center; }
+
+.team-list-item{background-color: var(--white-color); box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;}
+
 .portfolio-caption {
   font-weight: 700;
   font-size: 18px;
