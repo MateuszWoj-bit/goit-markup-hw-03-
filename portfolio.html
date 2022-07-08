@@ -18,7 +18,7 @@
     />
   </head>
   <body>
-    <header>
+    <header class="container">
       <section class="menu">
         <h1 class="logo">
           <a href="./index.html" class="link"><span class="blue">Web</span>Studio</a>
@@ -27,139 +27,157 @@
           <ul class="navigation">
             <li class="navigation-item"><a href="#" class="link">Agencja</a></li>
             <li class="navigation-item"><a href="./portfolio.html" class="link">Portfolio</a></li>
-            <li ><a href="#" class="link">Kontakt</a></li>
+            <li><a href="#" class="link">Kontakt</a></li>
           </ul>
         </nav>
         <ul class="contact">
-          <li class="navigation-item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+          <li class="navigation-item">
+            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+          </li>
           <li><a href="tel:+48111111111" class="link">+48 111 111 111</a></li>
         </ul>
       </section>
     </header>
-    <main>
-      <div class="portfolio">
-        <ul class="portfolio-list">
-          <li><button type="button">Wszystkie</button></li>
-          <li><button type="button">Strony</button></li>
-          <li><button type="button">Aplikacje</button></li>
-          <li><button type="button">Dizajn</button></li>
-          <li><button type="button">Marketing</button></li>
-        </ul>
-        <ul class="portfolio-content">
-          <li>
-            <figure>
-              <img
-                src="./images/Project-1.jpg"
-                alt="Laptop pokazujący stronę internetową Technocrack"
-                width="370"
-                height="294"
-              />
-              <figcaption class="portfolio-caption">
-                Technocrack <span class="grey">Strona internetowa</span>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="./images/Project-2.jpg"
-                alt="Koszykarze New Orlean i Golden Star walczący o piłkę"
-                width="370"
-                height="294"
-              />
-              <figcaption class="portfolio-caption">
-                Grafika New Orlean vs Golden Star <span class="grey">Dizajn</span>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="./images/Project-3.jpg"
-                alt="Logo restauracji Seafood"
-                width="370"
-                height="294"
-              />
-              <figcaption class="portfolio-caption">
-                Restauracja Seafood <span class="grey">Aplikacja</span>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src="./images/Project-4.jpg" alt="Słuchawki nauszne" width="370" height="294" />
-              <figcaption class="portfolio-caption">
-                Projekt Prime <span class="grey">Marketing</span>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="./images/Project-5.jpg"
-                alt="Trójwymiarowe modele pudełek"
-                width="370"
-                height="294"
-              />
-              <figcaption class="portfolio-caption">
-                Projekt Boxes <span class="grey">Aplikacja</span>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="./images/Project-6.jpg"
-                alt="Monitor pokazujący stronę internetową Inspiration has no Borders"
-                width="370"
-                height="294"
-              />
-              <figcaption class="portfolio-caption">
-                Inspiration has no Borders <span class="grey">Strona internetowa</span>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="./images/Project-7.jpg"
-                alt="Otwarty magazyn Limited Edition"
-                width="370"
-                height="294"
-              />
-              <figcaption class="portfolio-caption">
-                Magazyn Limited Edition <span class="grey">Dizajn</span>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="./images/Project-8.jpg"
-                alt="Projekt zawieszki LABELTAG"
-                width="370"
-                height="294"
-              />
-              <figcaption class="portfolio-caption">
-                Projekt LAB <span class="grey">Marketing</span>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="./images/Project-9.jpg"
-                alt="Przedstawiona na laptopie aplikacja Growing Business"
-                width="370"
-                height="294"
-              />
-              <figcaption class="portfolio-caption">
-                Growing Business <span class="grey">Aplikacja</span>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-      </div>
+    <main class="container">
+      <section class="section">
+        <div class="portfolio">
+          <ul class="portfolio-list">
+            <li><button type="button">Wszystkie</button></li>
+            <li><button type="button">Strony</button></li>
+            <li><button type="button">Aplikacje</button></li>
+            <li><button type="button">Dizajn</button></li>
+            <li><button type="button">Marketing</button></li>
+          </ul>
+          <ul class="portfolio-content">
+            <li class="portfolio-content-list">
+              <figure class="portfolio-content-figure">
+                <img
+                  src="./images/Project-1.jpg"
+                  alt="Laptop pokazujący stronę internetową Technocrack"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="portfolio-caption">
+                  Technocrack
+                  <p><span class="grey">Strona internetowa</span></p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="portfolio-content-list">
+              <figure class="portfolio-content-figure">
+                <img
+                  src="./images/Project-2.jpg"
+                  alt="Koszykarze New Orlean i Golden Star walczący o piłkę"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="portfolio-caption">
+                  Grafika New Orlean vs Golden Star
+                  <p><span class="grey">Dizajn</span></p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="portfolio-content-list">
+              <figure class="portfolio-content-figure">
+                <img
+                  src="./images/Project-3.jpg"
+                  alt="Logo restauracji Seafood"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="portfolio-caption">
+                  Restauracja Seafood
+                  <p><span class="grey">Aplikacja</span></p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="portfolio-content-list">
+              <figure class="portfolio-content-figure">
+                <img
+                  src="./images/Project-4.jpg"
+                  alt="Słuchawki nauszne"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="portfolio-caption">
+                  Projekt Prime
+                  <p><span class="grey">Marketing</span></p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="portfolio-content-list">
+              <figure class="portfolio-content-figure">
+                <img
+                  src="./images/Project-5.jpg"
+                  alt="Trójwymiarowe modele pudełek"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="portfolio-caption">
+                  Projekt Boxes
+                  <p><span class="grey">Aplikacja</span></p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="portfolio-content-list">
+              <figure class="portfolio-content-figure">
+                <img
+                  src="./images/Project-6.jpg"
+                  alt="Monitor pokazujący stronę internetową Inspiration has no Borders"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="portfolio-caption">
+                  Inspiration has no Borders
+                  <p><span class="grey">Strona internetowa</span></p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="portfolio-content-list">
+              <figure class="portfolio-content-figure">
+                <img
+                  src="./images/Project-7.jpg"
+                  alt="Otwarty magazyn Limited Edition"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="portfolio-caption">
+                  Magazyn Limited Edition
+                  <p><span class="grey">Dizajn</span></p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="portfolio-content-list">
+              <figure class="portfolio-content-figure">
+                <img
+                  src="./images/Project-8.jpg"
+                  alt="Projekt zawieszki LABELTAG"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="portfolio-caption">
+                  Projekt LAB
+                  <p><span class="grey">Marketing</span></p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="portfolio-content-list">
+              <figure class="portfolio-content-figure">
+                <img
+                  src="./images/Project-9.jpg"
+                  alt="Przedstawiona na laptopie aplikacja Growing Business"
+                  width="370"
+                  height="294"
+                />
+                <figcaption class="portfolio-caption">
+                  Growing Business
+                  <p><span class="grey">Aplikacja</span></p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
     <footer>
       <section class="footer">
