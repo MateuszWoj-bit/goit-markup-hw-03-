@@ -16,7 +16,7 @@
   padding: 0px;
 }
 .container {
-  margin: 0 205px;
+  margin: 0 auto;
   width: 1200px;
 }
 .section {
@@ -35,6 +35,17 @@ body {
 }
 button {
   cursor: pointer;
+}
+footer {
+  padding: 60px 0px;
+  background: var(--panetone-color);
+}
+header .container {
+  display: flex;
+  align-items: baseline;
+}
+img {
+  display: block;
 }
 li .link:hover,
 li .link:focus {
@@ -85,10 +96,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer {
-  padding: 60px 0px;
-  background: var(--panetone-color);
-}
+
 .footer-address {
   font-style: normal;
   font-size: 14px;
@@ -128,10 +136,9 @@ ul {
 .lorem {
   margin-bottom: 10px;
 }
+
 .menu {
   padding: 25px 0px;
-  display: flex;
-  align-items: baseline;
   border-bottom: 1px solid var(--border-color);
 }
 .navigation {
@@ -217,7 +224,6 @@ ul {
 .team-list {
   margin-top: 50px;
   display: flex;
-  justify-content: center;
 }
 .team-list li:not(:first-child) {
   margin-left: 30px;
@@ -234,7 +240,7 @@ ul {
   padding: 200px 0px 280px;
   background: var(--panetone-color);
 }
-.tools > h2 {
+.tools h2 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -243,7 +249,7 @@ ul {
   text-transform: uppercase;
   text-align: center;
 }
-.tools > button {
+.tools button {
   margin: auto;
   margin-top: 30px;
   padding: 10px 41px 10px 42px;
@@ -258,8 +264,8 @@ ul {
   border: none;
   border-radius: 4px;
 }
-.what-we-do > h2,
-.section > h2 {
+.what-we-do h2,
+.section h2 {
   font-size: 36px;
   line-height: 1.166;
   text-align: center;
@@ -268,7 +274,6 @@ ul {
 .what-we-do-list {
   margin-top: 50px;
   display: flex;
-  justify-content: center;
 }
 .what-we-do-list li:not(:first-child) {
   margin-left: 30px;
